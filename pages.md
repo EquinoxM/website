@@ -61,5 +61,5 @@ in the checkboxes screen and it also can schedule a notification at a future tim
 | ![homeScreen](./assets/images/EQM_Notes_home_small.png) | ![themeScreen](./assets/images/EQM_Notes_theme_small.png)|
 |:-------------------------------------------------------:|:--------------------------------------------------------:|
 |                       Home Screen                       |                       Theme Screen                       |
-| ![homeScreen](./assets/images/EQM_Notes_note_small.png) | ![themeScreen](./assets/images/EQM_Notes_Checkbox_list_small.png)|
+| ![homeScreen](./assets/images/EQM_Notes_note_small.png) | ![themeScreen](./assets/images/EQM_Notes_Checkbox_List_small.png)|
 |                       Note Screen                       |                       Checkbox Screen                    |
