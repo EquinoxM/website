@@ -42,7 +42,12 @@ a {
     color: aqua;
 }
 
-table, th, td {
+/*table, th, td {*/
+/*border: 2px solid black;*/
+/*border-collapse: collapse;*/
+/*}*/
+
+.notes-table {
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -58,4 +63,11 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
     height: 66vh;
+}
+
+.ccna-table-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33vh;
 }
