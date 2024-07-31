@@ -3,6 +3,7 @@
     --blue-rgb: 23 48 62;
     --green-rgb: 31 40 9;
     --brown-rgb: 30 12 7;
+    --lime-rgb: 0 100 0;
 }
 
 /*html {*/
@@ -94,12 +95,16 @@ body:has(.card[data-color="green"]:hover) {
     background-color: rgb(var(--green-rgb)); /* / 25%);*/
 }
 
+body:has(.card[data-color="lime"]:hover) {
+    background-color: rgb(var(--lime-rgb)); /* / 25%);*/
+}
+
 body:has(.card[data-color="brown"]:hover) {
     background-color: rgb(var(--brown-rgb)); /* / 25%);*/
 }
 
 #cards {
-    width: 100%;
+    width: 97vw;
     display: flex;
     justify-content: space-evenly;
 }
@@ -118,8 +123,12 @@ body:has(.card[data-color="brown"]:hover) {
     z-index: 2;
 }
 
+/*.card:hover .card-front-image {*/
+/*    scale: 1.1;*/
+/*}*/
+
 .card .card-image {
-    width: clamp(300px, 20vw, 500px);
+    width: clamp(10vw, 20vw, 30vw);
     /*aspect-ratio: 2 / 3;*/
     border-radius: clamp(0.5rem, 0.75vw, 2rem);
 }
@@ -170,7 +179,7 @@ body:has(.card[data-color="brown"]:hover) {
     animation-delay: 2250ms;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 95vw) {
     body {
         justify-content: flex-start;
         align-items: flex-start;
@@ -184,11 +193,11 @@ body:has(.card[data-color="brown"]:hover) {
     }
 
     .card .card-image {
-        width: 400px;
+        width: 29vw;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 42vw) {
     #cards {
         gap: 2rem;
         padding: 2rem;
