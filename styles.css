@@ -75,15 +75,18 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 66vh;
+    /*aspect-ratio: 1 / 1;*/
+    max-width: 38vw;
+    max-height: 66vh;
+    min-width: 25%;
 }
 
-.ccna-table-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 33vh;
-}
+/*.ccna-table-center {*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    height: 33vh;*/
+/*}*/
 
 /*Cards Effects*/
 
